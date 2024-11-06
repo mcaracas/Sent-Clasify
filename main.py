@@ -5,7 +5,7 @@ from tenacity import retry, stop_after_attempt, wait_random_exponential
 import openai
 
 # Set OpenAI API key and initialize the client
-api_key = "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"
+api_key = ""
 client = openai.OpenAI(api_key=api_key)
 MODEL = "gpt-4o-mini"
 
