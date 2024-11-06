@@ -7,7 +7,7 @@ import openai
 # Set OpenAI API key and initialize the client
 api_key = "" #api key goes here
 client = openai.OpenAI(api_key=api_key)
-MODEL = "gpt-4o-mini"
+MODEL = "gpt-4o-mini" #model
 
 # Updated rate limit tracking
 REQUESTS_PER_MINUTE = 5000  # Updated request limit
